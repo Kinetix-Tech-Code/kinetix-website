@@ -3,7 +3,7 @@
 Official landing page for **Kinetix**, a digital agency specializing in custom web development, SEO strategies, and software solutions for modern businesses.
 
 ## 🚀 Live Demo
-**[Click here to view the live website]((https://kinetix-tech-code.github.io/kinetix-website/))**
+**[Click here to view the live website]([https://kinetix-tech-code.github.io/kinetix-website/])**
 
 ## 🛠 Tech Stack
 * **Core:** HTML5, CSS3 (Semantic & Accessible)
