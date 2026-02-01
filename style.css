@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; /*Clean, modern font */
+    background-color: #121212; /*Deep dark grey*/
+    color: #e0e0e0; /*Soft white text*/
+    text-align: center; /*Centers everything for now*/
+}
+
+h1 {
+    color: #00adb5; /*Teal accent color */
+    font-size: 3rem; /*Big and bold*/
+    margin-top: 50px;
+}
+
+h2 {
+    color: #EEEEEE; /*Bright white*/
+    font-weight: normal;
+}
+
+footer {
+    margin-top: 100px;
+    font-size:  0.8rem;
+    color: #757575; /*Dimmer grey for less importance*/
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #00adb5; /*Brand Team*/
+    color: #121212; /*Dark text for contrast*/
+    text-decoration: none; /*Removes the underline*/
+    border-radius: 5px; /*Rounds the corners slightly*/
+    font-weight: bold;
+    transition: background-color 0.3s; /*Smooth hover effect*/
+}
+
+.cta-button:hover {
+    background-color: #EEEEEE; /*Turns white when you mouse over it*/
+}
+/* Contact Form Styles */
+#contact-section {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+h3 {
+    color: #00adb5; /*Matches the Brand Teal*/
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto; /* Centers the form */
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #cccccc;
+    font-size: 0.9rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #1e1e1e; /* Slightly lighter than background */
+    border: 1px solid #333;
+    color: #ffffff;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding doesn't break width */
+}
+
+input:focus, textarea:focus {
+    border-color: #00adb5; /* Teal glow when typing */
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #00adb5;
+    color: #121212;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: #EEEEEE;
+}
